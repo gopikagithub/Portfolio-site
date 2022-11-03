@@ -14,11 +14,11 @@ const App=()=>{
 
       <Route path='/Portfolio-Website' element={<Navigation/>}>
 
-        <Route path='/Portfolio-Website/' element={<Home/>}/>
-        <Route path='/Portfolio-Website/aboutMe' element={<AboutMe/>}/>
-        <Route path='/Portfolio-Website/education' element={<Education/>}/>
-        <Route path='/Portfolio-Website/portfolio/*' element={<MyPortfolio/>}/>
-        <Route path='/Portfolio-Website/contact' element={<Contact/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/aboutMe' element={<AboutMe/>}/>
+        <Route path='/education' element={<Education/>}/>
+        <Route path='/portfolio' element={<MyPortfolio/>}/>
+        <Route path='/contact' element={<Contact/>}/>
 
       </Route>
 
