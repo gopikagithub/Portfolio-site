@@ -17,7 +17,7 @@ const App=()=>{
         <Route path='Portfolio-Website/' element={<Home/>}/>
         <Route path='Portfolio-Website/aboutMe' element={<AboutMe/>}/>
         <Route path='Portfolio-Website/education' element={<Education/>}/>
-        <Route path='Portfolio-Website/portfolio' element={<MyPortfolio/>}/>
+        <Route path='/Portfolio-Website/portfolio' element={<MyPortfolio/>}/>
         <Route path='Portfolio-Website/contact' element={<Contact/>}/>
 
       </Route>
