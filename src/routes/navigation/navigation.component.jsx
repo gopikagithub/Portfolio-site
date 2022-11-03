@@ -18,11 +18,11 @@ const Navigation=()=>{
 
                 <div className="navbar">
                     <ul>
-                        <li><Link className="link" to={'/'} >Home</Link></li>
-                        <li><Link className="link" to={'/aboutMe'} >About Me</Link></li>
-                        <li><Link className="link" to={'/education'} >Education</Link></li>
-                        <li><Link className="link" to={'/portfolio'} >My Portfolio</Link></li>
-                        <li><Link className="link" to={'/contact'} >Contact</Link></li>
+                        <li><Link className="link" to={'/Portfolio-Website'} >Home</Link></li>
+                        <li><Link className="link" to={'/Portfolio-Website/aboutMe'} >About Me</Link></li>
+                        <li><Link className="link" to={'/Portfolio-Website/education'} >Education</Link></li>
+                        <li><Link className="link" to={'/Portfolio-Website/portfolio'} >My Portfolio</Link></li>
+                        <li><Link className="link" to={'/Portfolio-Website/contact'} >Contact</Link></li>
                     </ul>
                 </div>
             

@@ -12,7 +12,7 @@ const App=()=>{
     <div className='app-container'>
     <Routes>
 
-      <Route path='*' element={<Navigation/>}>
+      <Route path='/Portfolio-Website' element={<Navigation/>}>
 
         <Route index element={<Home/>}/>
         <Route path='aboutMe' element={<AboutMe/>}/>
