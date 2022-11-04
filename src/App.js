@@ -12,13 +12,13 @@ const App=()=>{
     <div className='app-container'>
     <Routes>
 
-      <Route path='/Portfolio-Website' element={<Navigation/>}>
+      <Route path='/Portfolio-Website/' element={<Navigation/>}>
 
         <Route index element={<Home/>}/>
-        <Route path='/aboutMe' element={<AboutMe/>}/>
-        <Route path='/education' element={<Education/>}/>
-        <Route path='/portfolio' element={<MyPortfolio/>}/>
-        <Route path='/contact' element={<Contact/>}/>
+        <Route path='aboutMe' element={<AboutMe/>}/>
+        <Route path='education' element={<Education/>}/>
+        <Route path='portfolio' element={<MyPortfolio/>}/>
+        <Route path='contact' element={<Contact/>}/>
 
       </Route>
 
