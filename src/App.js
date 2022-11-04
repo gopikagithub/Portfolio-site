@@ -14,7 +14,7 @@ const App=()=>{
 
       <Route path='/Portfolio-Website' element={<Navigation/>}>
 
-        <Route path='/' element={<Home/>}/>
+        <Route index element={<Home/>}/>
         <Route path='/aboutMe' element={<AboutMe/>}/>
         <Route path='/education' element={<Education/>}/>
         <Route path='/portfolio' element={<MyPortfolio/>}/>
