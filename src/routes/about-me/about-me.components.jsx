@@ -38,11 +38,7 @@ const AboutMe=()=>{
                  <div className="other-skills">
                       <h3>Other skills</h3>
                       <li>Quick learner</li>
-                      <li>Positive attitude</li>
-                      <li>Self-confidence</li>
-                      <li>Leadership qualities</li>
-                      <li>Ability to work in a team</li>
-                      <li>Hard worker</li>
+                      
                     
                 </div>
 
