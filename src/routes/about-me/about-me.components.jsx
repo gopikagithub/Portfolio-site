@@ -35,13 +35,7 @@ const AboutMe=()=>{
                         </ul>
                 </div>
 
-                 <div className="other-skills">
-                      <h3>Other skills</h3>
-                      <li>Quick learner</li>
-                      
-                    
-                </div>
-
+                 
             
             </div>
            
